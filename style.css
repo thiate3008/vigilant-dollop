@@ -1,0 +1,105 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap');
+
+
+body{
+    background-color: #f5ec6dd0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+    background-color:#ffff;
+    width: 900px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ajout d'une propriété display flex pour aligner les éléments horizontalement */
+  }
+  
+  nav li {
+    margin-right: 50px; /* pour ajouter un peu d'espace entre chaque élément */
+    color: black;
+  }
+  
+  nav li:last-child {
+    margin-right: 50px; /* pour supprimer l'espace après le dernier élément */
+  }
+  
+  nav li a {
+    text-decoration: none;
+  }
+
+.texte{
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+   
+
+}  
+
+  .images{
+    text-align: right;
+    border-radius: 100px;
+    margin-right: 10px;
+    padding: 50px;
+    background-color: #eede05;
+
+
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .texte {
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    }
+    
+    .images {
+    text-align: right;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    }
+    
+    .h1{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .h2{
+        color: #eede05 ;
+    }
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
